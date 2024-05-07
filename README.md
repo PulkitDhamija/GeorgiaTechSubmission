@@ -1,7 +1,7 @@
 # GeorgiaTechSubmission
 
-Will update the readme file tomorrow with the video and the code for the app.
+I will update the readme file by tomorrow with the video and the app code.
 
-Kinldy give me a little bit more time.
+Kindly give me a little more time, as I had my exams last week.
 
 Thank you!!
