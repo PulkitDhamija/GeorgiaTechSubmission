@@ -6,9 +6,15 @@ Problem Statement: To extract the information from 10-K fillings of companies an
 
 Challenges: 
 
-- djsd
+- Unable to parse XBRL files using already available parsers in Python.
+- Without parsers, unable to remove unnecessary information from the file text.
+- Even after removing unnecessary information like HTML tags and other styling content, a large amount of text was still left to be processed by the LLM model to generate insights.
+- This large amount of text was also not clean.
+- Even after giving the LLM model the necessary information, the LLM model was unable to extract the said information from the text.
 
 Approach:
+
+-
 
 ## Code explanation:
 
