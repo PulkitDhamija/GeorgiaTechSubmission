@@ -93,7 +93,7 @@ After processing all chunks, the function returns the list of modified chunks co
 
 Response function:
 
-This response function generates responses based on the provided smaller chunks of text and the specified year. It iterates through each smaller chunk, generating a response using llm model based on a predefined prompt.\
+This response function generates responses based on the provided smaller chunks of text and the specified year. It iterates through each smaller chunk, generating a response using LLM model based on a predefined prompt.\
 The prompt includes instructions to extract various pieces of information related to financial metrics for the given year. It also includes the chunk of text itself, enclosed within triple backticks (```), to provide context for the model.\
 For each chunk, the function generates a response using the model and appends it to a list of responses.\
 After processing all smaller chunks, the function joins the responses into a single string res. It then writes this string to a file named "first_response.txt".\
@@ -109,12 +109,12 @@ After processing all lines, the function writes the modified content to a new fi
 
 final_aggregate_response function:
 
-After removing lines that contain words like 'not' from the first response of the llm model, I again passed it to the llm model to summarize all the information it has.
+After removing lines that contain words like 'not' from the first response of the LLM model, I again passed it to the LLM model to summarize all the information it has.
 
 This final_aggregate_response function aggregates the financial information contained in a file specified by the input path.\
 It begins by reading the content of the file located at the specified path using with open(path, 'r') as file, and stores the content in the variable res.\
 Then, it constructs a prompt string that instructs to aggregate various financial information items. The prompt includes the content of the file enclosed within triple backticks (```) to provide context for the model.\
-After constructing the prompt, the function generates a response using some model (presumably defined elsewhere in the code) based on the prompt.\
+After constructing the prompt, the function generates a response using the LLM model based on the prompt.\
 Finally, it returns the generated response text.
 
 Thank you!!
