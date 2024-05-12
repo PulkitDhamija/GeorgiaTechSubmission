@@ -4,6 +4,10 @@ I will update the readme file by 10th May 11:59 pm EST with all the description 
 
 Problem Statement: To extract the information from 10-K fillings of companies and generate insights using LLM models.
 
+Challenges: 
+
+- djsd
+
 Approach:
 
 ## Code explanation:
