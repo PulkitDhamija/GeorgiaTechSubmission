@@ -10,14 +10,20 @@ Challenges:
 - Without parsers, unable to remove unnecessary information from the file text.
 - Even after removing unnecessary information like HTML tags and other styling content, a large amount of text was still left to be processed by the LLM model to generate insights.
 - This large amount of text was also not clean.
-- Even after giving the LLM model the necessary information, the LLM model was unable to extract the said information from the text.
+- Even after giving the LLM model the necessary information, the LLM model was unable to extract the "said" information from the text with good accuracy.
 
 Approach:
 
 - Cleaning the text as much as possible manually.
-- Dividing the text into smaller chunks using some modifications so that it can be processed by the LLM model
-- Modifications included:
-    - dhashda
+- Give this text to the LLM model, such that it can give me the relevant "said" financial information from the text.
+- Idea is to reduce the text as much as possible which has to be processed by the LLM model to extract the "said" information.
+- For this, I applied various modifications, which included:
+    -  Finding lines with relevant content like earnings per share, income, etc. (stored in variable 'keywords' in the code) and storing the previous two and next eight lines from that line.
+    -  In some texts, only one line had a large amount of text, so to tackle this, I put a cap of 100 words per line using the "second modification" function (explained below in the code explanation).
+    -  After getting these relevant lines and storing them in text, I divided this text into chunks of 500 lines.
+    -  Now, after dividing into chunks of 500 lines, some chunks contained a large amount of text, so to tackle this, I put a cap of 10000 words per chunk using the "fifth modification" function.
+    - Gave these chunks to the LLM model, extracted the "said" relevant information, and aggregated this information by again passing the response (which was modified manually to remove unnecessary information) to the LLM model.
+    -  Did this for each year 
 
 ## Code explanation:
 
