@@ -22,18 +22,18 @@ The code processes the 10-K filing directories for the company "MSFT" (Microsoft
 
 To get all the file paths and hash them with their respective year:
 
-This code aims to collect file paths for the 10-K filings of Microsoft (MSFT) stored in the specified directory (sec-edgar-filings/MSFT/10-K). It initializes an empty dictionary named file_paths to store the file paths along with their corresponding years.
-The code iterates through each year in the years list (presumably extracted in a previous step). For each year, it constructs the full path to the corresponding directory using os.path.join(folder_path, folder_name).
-The path is then appended with a trailing '/' to ensure it represents a directory. If the directory exists (os.path.exists(full_path)) and is not empty (files), the code retrieves the list of files in that directory using os.listdir(full_path).
+This code aims to collect file paths for the 10-K filings of Microsoft (MSFT) stored in the specified directory (sec-edgar-filings/MSFT/10-K). It initializes an empty dictionary named file_paths to store the file paths along with their corresponding years.\
+The code iterates through each year in the years list (presumably extracted in a previous step). For each year, it constructs the full path to the corresponding directory using os.path.join(folder_path, folder_name).\
+The path is then appended with a trailing '/' to ensure it represents a directory. If the directory exists (os.path.exists(full_path)) and is not empty (files), the code retrieves the list of files in that directory using os.listdir(full_path).\
 If files are found, it selects the first file (files[0]) and constructs the full path to that file. This full path, along with the corresponding year (converted to an integer), is added to the file_paths dictionary.
 
 
 Function to remove empty lines (it will used after every modification):
 
 This function, remove_empty_lines, takes a file path as input. It reads the content of the file specified by the given path in read mode ('r') and stores the lines in a list named lines.
-Within the loop iterating over the lines, it checks if the line is empty and the previous line did not have content. If so, it continues to the next iteration, effectively skipping the empty line.
-It also updates the previous_line_has_content flag to keep track of whether the current line has content or not.
-Non-empty lines are appended to the new_lines list.
+Within the loop iterating over the lines, it checks if the line is empty and the previous line did not have content. If so, it continues to the next iteration, effectively skipping the empty line.\
+It also updates the previous_line_has_content flag to keep track of whether the current line has content or not.\
+Non-empty lines are appended to the new_lines list.\
 After processing all lines, the function overwrites the original file with the modified content, effectively removing consecutive empty lines.
 
 
