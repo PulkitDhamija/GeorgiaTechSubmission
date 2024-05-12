@@ -14,7 +14,10 @@ Challenges:
 
 Approach:
 
--
+- Cleaning the text as much as possible manually.
+- Dividing the text into smaller chunks using some modifications so that it can be processed by the LLM model
+- Modifications included:
+    - dhashda
 
 ## Code explanation:
 
