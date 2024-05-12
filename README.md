@@ -47,7 +47,7 @@ It skips lines containing certain special characters or whitespace patterns.\
 It detects if the line contains references to certain file types like images (.jpg), Excel files (.xlsx), zip archives (.zip), or HTML files (.htm).\
 It filters out lines related to detected file types to avoid processing them further.\
 It appends the filtered lines to a list named new_lines.\
-After processing all lines, the function writes the filtered content to a new file named 'modified1.txt' and returns the path to the modified file.\
+After processing all lines, the function writes the filtered content to a new file named 'modified1.txt' and returns the path to the modified file.
 
 
 Second modification:
@@ -80,7 +80,7 @@ This function, fifth_modification, takes a list of chunks as input along with an
 It initializes an empty list named new_chunks to store the modified chunks.\
 For each chunk in the input list chunks, the function checks if its length (after stripping leading and trailing whitespace) exceeds the max_chunk_size. If so, it calculates the number of splits required to divide the chunk into smaller chunks approximately equal to the max_chunk_size. Then, it iterates through the chunk and splits it into smaller chunks based on the calculated split size.\
 The resulting smaller chunks are appended to the new_chunks list. If a chunk does not exceed the max_chunk_size, it is directly appended to new_chunks without any further splitting.\
-After processing all chunks, the function returns the list of modified chunks containing either the original chunks or their smaller counterparts.\
+After processing all chunks, the function returns the list of modified chunks containing either the original chunks or their smaller counterparts.
 
 
 Response function:
