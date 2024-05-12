@@ -10,13 +10,14 @@ Approach:
 
 Code explanation:
 
+Downloading sec files code box:
 
 The code initializes a downloader object named dl for the company "MyCompanyName" with the email address "my.email@domain.com". Then, it defines a list of equity IDs, including "WMT", "MSFT", and "AAPL". It iterates over each equity ID in the list and uses the downloader object dl to fetch the 10-K filings for the corresponding company. The filings are retrieved for the period after December 31, 2020, and before December 31, 2023. Additionally, the parameter download_details is set to False, indicating that only the filings themselves are being downloaded without any additional details.
 
 
+Code to change the name of the files:
 
-
-This code snippet processes the 10-K filing directories for the company "MSFT" (Microsoft) located at the specified folder path. It initializes a regular expression pattern r'-(\d+)-' to match the year in the folder names. It then creates an empty list named years to store the extracted years. The code iterates through each folder in the specified directory using os.listdir(folder_path). For each folder, it constructs the full path using os.path.join(folder_path, folder_name). If the path corresponds to a directory (os.path.isdir(full_path)), it attempts to match the pattern in the folder name using re.search(pattern, folder_name). If a match is found, it extracts the year from the folder name using match.group(1) and renames the folder to just the year. Finally, it appends the extracted year to the years list.
+The code processes the 10-K filing directories for the company "MSFT" (Microsoft) located at the specified folder path. It initializes a regular expression pattern r'-(\d+)-' to match the year in the folder names. It then creates an empty list named years to store the extracted years. The code iterates through each folder in the specified directory using os.listdir(folder_path). For each folder, it constructs the full path using os.path.join(folder_path, folder_name). If the path corresponds to a directory (os.path.isdir(full_path)), it attempts to match the pattern in the folder name using re.search(pattern, folder_name). If a match is found, it extracts the year from the folder name using match.group(1) and renames the folder to just the year. Finally, it appends the extracted year to the years list.
 
 
 
