@@ -2,9 +2,7 @@
 
 I will update the readme file by 10th May 11:59 pm EST with all the description and video of the app and the repository with the final code and app code.
 
-Description:
-
-Problem Statement:
+Problem Statement: To extract the information from 10-K fillings of companies and generate insights using LLM models.
 
 Approach:
 
@@ -12,7 +10,7 @@ Approach:
 
 Downloading sec files code cell:
 
-The code initializes a downloader object named dl for the company "MyCompanyName" with the email address "my.email@domain.com". Then, it defines a list of equity IDs, including "WMT", "MSFT", and "AAPL". It iterates over each equity ID in the list and uses the downloader object dl to fetch the 10-K filings for the corresponding company. The filings are retrieved for the period after December 31, 2020, and before December 31, 2023. Additionally, the parameter download_details is set to False, indicating that only the filings themselves are being downloaded without any additional details.
+The code initializes a downloader object named dl for the company "MyCompanyName" with the email address "my.email@domain.com". Then, it defines a list of equity IDs, including "WMT", "MSFT", and "AAPL". It iterates over each equity ID in the list and uses the downloader object dl to fetch the 10-K filings for the corresponding company. The filings are retrieved for the period after December 31, 1994, and before December 31, 2023. Additionally, the parameter download_details is set to False, indicating that only the filings themselves are being downloaded without any additional details.
 
 
 Code to change the name of the files:
