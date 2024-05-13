@@ -236,9 +236,10 @@ After choosing the ticker, the backend code is running to generate the response.
 
 The insights were as follows:
 
+<img width="779" alt="Screenshot 2024-05-13 at 4 42 56 PM" src="https://github.com/PulkitDhamija/GeorgiaTechSubmission/assets/82368328/513d5b66-4730-4259-b152-7aaac34c79ac">
 
 
-Note: I have only run the app for the past 10 years (2013-2023) as an example. 
+Note: I have only run the app for the past 3 years (2021-2023) for ticker AAPL to showcase. But for the example of MSFT in the 'Example' section, I did it for all the years (1995-2023).
 
 ## Challenges and Further improvements
 
