@@ -219,3 +219,7 @@ Then I did this for every year and aggregated it, gave it the LLM model to gener
 
 Overall, the financial performance of MSFT has been remarkable, with consistent growth in revenue, net income, and EPS. The company has demonstrated strong profitability, effective asset management, and a solid financial position. MSFT's ability to adapt to changing market dynamics and maintain a competitive edge has contributed to its long-term success and positions it well for continued growth in the years to come.
 ~~~
+
+Of course, this output can be made better by giving better prompts to the LLM model, but for now, we can continue with this since we were able to at least extract the relevant information.
+
+## App
