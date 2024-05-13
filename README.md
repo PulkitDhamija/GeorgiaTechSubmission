@@ -228,12 +228,12 @@ I developed a streamlit to showcase insights.
 
 When I launch the app, it opens up like this: you can see that it takes input as a ticker.
 
-<img width="857" alt="Screenshot 2024-05-13 at 3 50 57 PM" src="https://github.com/PulkitDhamija/GeorgiaTechSubmission/assets/82368328/3ba0e09c-4847-403c-97df-af127df2163c">
-\
+<img width="857" alt="Screenshot 2024-05-13 at 3 50 57 PM" src="https://github.com/PulkitDhamija/GeorgiaTechSubmission/assets/82368328/3ba0e09c-4847-403c-97df-af127df2163c">\
+
 You can see that it takes input as a ticker.
 
-<img width="762" alt="Screenshot 2024-05-13 at 3 53 43 PM" src="https://github.com/PulkitDhamija/GeorgiaTechSubmission/assets/82368328/31fc50b1-8b89-4ce4-b644-20160c191cc9">
-\
+<img width="762" alt="Screenshot 2024-05-13 at 3 53 43 PM" src="https://github.com/PulkitDhamija/GeorgiaTechSubmission/assets/82368328/31fc50b1-8b89-4ce4-b644-20160c191cc9">\
+
 After choosing the ticker, the backend code is running to generate the response.
 
 The insights were as follows:
