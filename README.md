@@ -130,4 +130,11 @@ Then, it constructs a prompt string that instructs to aggregate various financia
 After constructing the prompt, the function generates a response using the LLM model based on the prompt.\
 Finally, it returns the generated response text.
 
-Thank you!!
+Final steps:
+
+`all_year_response` code cell:
+
+This code snippet iterates through a list of years, presumably corresponding to financial filings. For each year, it prepares the associated file path and adjusts the year format if necessary. The code then conducts a sequence of data manipulations and processing steps on the financial filing data. These steps involve various modifications, such as removing unnecessary content, splitting the data into smaller manageable chunks, generating responses based on these chunks, and aggregating the responses. Each manipulation step is called sequentially, with the output of one step being fed into the next. Progress is printed out, indicating the year being processed and the number of data chunks generated for that year. Finally, the responses generated for each year are stored in a dictionary for further analysis or use.
+
+Finally, aggregated the output of the above cell and gave that as input to the LLM model to generate insights.
+
