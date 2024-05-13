@@ -230,4 +230,18 @@ When I launch the app, it opens up like this: you can see that it takes input as
 <img width="857" alt="Screenshot 2024-05-13 at 3 50 57 PM" src="https://github.com/PulkitDhamija/GeorgiaTechSubmission/assets/82368328/3ba0e09c-4847-403c-97df-af127df2163c">
 \
 You can see that it takes input as a ticker.
+<img width="762" alt="Screenshot 2024-05-13 at 3 53 43 PM" src="https://github.com/PulkitDhamija/GeorgiaTechSubmission/assets/82368328/31fc50b1-8b89-4ce4-b644-20160c191cc9">
+\
+After choosing the ticker, the backend code is running to generate the response.
+
+The insights were as follows:
+
+\
+
+Note: I have only run the app for the past 10 years (2013-2023) as an example. 
+
+## Challenges and Further improvements
+
+- I have only tried to show the generated insights from the LLM model. I did not try to show any visualisations like trend plots for different financial information. We can show that as well by extracting the particular information from LLM outputs and cleaning that if necessary, and finally showcase the trend plots.
+- The time it takes to process all the text (chunks and everything) is still really long. I think that can be significantly reduced if we use LLM models, which are specifically made for text summarization. One such LLM model is "text summarize"; it is really fast for the use case of text summarization, and even GPT is better in terms of speed against Gemini. Since Gemini is free to use, I used Gemini for this.
 
