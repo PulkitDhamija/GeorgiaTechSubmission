@@ -138,3 +138,61 @@ This code snippet iterates through a list of years, presumably corresponding to 
 
 Finally, aggregated the output of the above cell and gave that as input to the LLM model to generate insights.
 
+
+## Example
+
+I ran the code for the year 2021 10-K file of MSFT, and extracted this information:
+
+**2021**
+
+**Shares Purchased and Average Price Paid per Share/Number of Shares Purchased**
+
+
+**Total Net Sales and Year Change/Net Sales**
+
+- Total net sales: $168,088 
+- Year change/net sales: 18%
+
+**Total Gross Margin and Total Gross Margin Percentage/Total Cost of Sales/Gross Margin/Gross Margin Percentage**
+
+- Total gross margin: $59,774
+- Total gross margin percentage: 36%
+- Total cost of sales: $108,314
+- Gross margin: $59,774
+
+
+**Net Income/Total Net Income**
+
+- Net income: $61,271
+
+**Earnings Per Share**
+
+- Diluted earnings per share: $8.05
+
+**Total Current Assets/Current Assets**
+
+- Total current assets: $184,406
+- Current assets: $18,4406
+
+**Total Shareholders’ Equity/Shareholders’ Equity**
+
+
+**Total Current Liabilities/Current Liabilities**
+
+- Total current liabilities: $88,657
+- Current liabilities: $88,657
+
+**Period End**
+
+- June 26, 2022
+
+**Total Revenue/Revenue**
+
+- Total revenue: $168,088
+**2020**
+
+ - Net income/total net income: $61,271
+ - Total current assets/current assets: $184,406
+ - Total current liabilities/current liabilities: $88,657
+ - Period end: Jun. 30, 2020
+
