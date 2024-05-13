@@ -250,7 +250,7 @@ def fourth_modification(file_path, chunk_size = 500):
 
 
 @st.cache_data
-def fifth_modification(chunks, max_chunk_size = 10000):
+def fifth_modification(chunks, max_chunk_size = 8000):
     new_chunks = []
     for chunk in chunks:
         if len(chunk.strip()) > max_chunk_size:
@@ -423,11 +423,11 @@ def modifying_input(response):
 
 @st.cache_data
 def final_output(gem_input, ticker):
-    ticker = "MSFT"
+    # ticker = "AAPL"
     final_prompt = f"""
         I am providing you with financial information about the company {ticker} over the years (2021-2023).
         Using this information, generate insights about the performance, also share the numberes wherever necessary,
-        be a little extensive
+        be a little extensive, insights which talk about trends and stuff..
         and finally summarize the whole info
         The info is as follows: ```{gem_input}```
         """
