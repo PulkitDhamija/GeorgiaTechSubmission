@@ -196,3 +196,26 @@ I ran the code for the year 2021 10-K file of MSFT, and extracted the relevant i
  - Total current liabilities/current liabilities: $88,657
  - Period end: Jun. 30, 2020
 ~~~
+
+Then I did this for every year and aggregated it, gave it the LLM model to generate insights and this was the output:
+~~~
+**Insights:**
+
+**Revenue:** MSFT's total net sales have grown significantly over the years, from $5,937 million in 1995 to $198,270 million in 2022, representing a remarkable increase of over 3,200%. This consistent growth indicates the company's ability to expand its market reach and generate increasing revenue streams.
+
+**Net income:** MSFT's net income has also shown a significant upward trend, rising from $1,453 million in 1995 to $72,738 million in 2022, marking an impressive increase of nearly 5,000%. This sustained profitability demonstrates the company's efficient operations and effective cost management strategies.
+
+**Earnings per share (EPS):** MSFT's EPS has followed a generally positive trajectory, reflecting the company's profitability and value creation for shareholders. From $2.32 in 1995, the EPS rose to an all-time high of $9.65 in 2022. This consistent growth in EPS indicates MSFT's ability to generate increasing returns for investors.
+
+**Profitability:** MSFT's gross margin percentage has fluctuated over the years, but it has generally remained within a range of 40% to 47%. This indicates that the company has been successful in maintaining a healthy gross margin, allowing it to cover operating expenses and generate profits.
+
+**Assets:** MSFT's total current assets have witnessed a substantial increase, growing from $5,620 million in 1995 to $169,684 million in 2022. This indicates the company's ability to acquire and manage its assets effectively, providing a strong financial foundation for future growth.
+
+**Liabilities:** MSFT's total current liabilities have also increased over the years, rising from $2,425 million in 1996 to $95,082 million in 2022. This growth in liabilities reflects the company's increasing financial obligations, which need to be carefully managed to maintain a healthy financial position.
+
+**Liquidity:** MSFT's current ratio, which measures the company's ability to meet its short-term obligations, has generally remained above 1.0, indicating that the company has sufficient liquidity to cover its current liabilities. This suggests that MSFT is financially stable and has the resources to meet its immediate financial commitments.
+
+**Summary:**
+
+Overall, the financial performance of MSFT has been remarkable, with consistent growth in revenue, net income, and EPS. The company has demonstrated strong profitability, effective asset management, and a solid financial position. MSFT's ability to adapt to changing market dynamics and maintain a competitive edge has contributed to its long-term success and positions it well for continued growth in the years to come.
+~~~
