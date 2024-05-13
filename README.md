@@ -4,7 +4,7 @@ I will update the readme file by 10th May 11:59 pm EST with all the description 
 
 Problem Statement: To extract the information from 10-K fillings of companies and generate insights using LLM models.
 
-Description: My final aim was to extract information like earnings per share, revenue, gross margin, current assets, etc. from 10-K sec edgar fillings and generate insights based on yearly changes from 1995-2023.
+Description: My ultimate aim is to extract information like earnings per share, revenue, gross margin, current assets, etc., from 10-K sec edgar fillings and generate insights based on yearly changes from 1995-2023.
 
 Challenges: 
 
