@@ -223,3 +223,10 @@ Overall, the financial performance of MSFT has been remarkable, with consistent 
 Of course, this output can be made better by giving better prompts to the LLM model, but for now, we can continue with this since we were able to at least extract the relevant information.
 
 ## App
+
+I developed a streamlit to showcase insights.
+
+When I launch the app, it opens up like this: you can see that it takes input as a ticker.
+<img width="857" alt="Screenshot 2024-05-13 at 3 50 57 PM" src="https://github.com/PulkitDhamija/GeorgiaTechSubmission/assets/82368328/3ba0e09c-4847-403c-97df-af127df2163c">
+You can see that it takes input as a ticker.
+
