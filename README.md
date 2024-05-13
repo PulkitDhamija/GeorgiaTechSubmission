@@ -142,8 +142,8 @@ Finally, aggregated the output of the above cell and gave that as input to the L
 ## Example
 
 I ran the code for the year 2021 10-K file of MSFT, and extracted the relevant information using the LLM model and this was the output:
-
-~~~**2021**
+~~~
+**2021**
 
 **Shares Purchased and Average Price Paid per Share/Number of Shares Purchased**
 
@@ -194,7 +194,5 @@ I ran the code for the year 2021 10-K file of MSFT, and extracted the relevant i
  - Net income/total net income: $61,271
  - Total current assets/current assets: $184,406
  - Total current liabilities/current liabilities: $88,657
- - Period end: Jun. 30, 2020 ~~~
-
-
-
+ - Period end: Jun. 30, 2020
+~~~
