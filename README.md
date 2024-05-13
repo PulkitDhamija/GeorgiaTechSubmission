@@ -120,7 +120,7 @@ The function iterates through each line in the file using a for loop with the in
 For each line, the function checks if any word from the not_words list is present in the line (case insensitive comparison). If such a word is found, it skips appending that line to `new_lines`.\
 After processing all lines, the function writes the modified content to a new file named `modified_response.txt`. Finally, it returns the path to the modified file.
 
-final_aggregate_response function:
+`final_aggregate_response` function:
 
 After removing lines that contain words like `not` from the first response of the LLM model, I again passed it to the LLM model to summarize all the information it has.
 
