@@ -243,5 +243,6 @@ Note: I have only run the app for the past 10 years (2013-2023) as an example.
 ## Challenges and Further improvements
 
 - I have only tried to show the generated insights from the LLM model. I did not try to show any visualisations like trend plots for different financial information. We can show that as well by extracting the particular information from LLM outputs and cleaning that if necessary, and finally showcase the trend plots.
-- The time it takes to process all the text (chunks and everything) is still really long. I think that can be significantly reduced if we use LLM models, which are specifically made for text summarization. One such LLM model is "text summarize"; it is really fast for the use case of text summarization, and even GPT is better in terms of speed against Gemini. Since Gemini is free to use, I used Gemini for this.
+- The time it takes to process all the text (chunks and everything) is still really long. I think that can be significantly reduced if we use LLM models, which are specifically made for text summarization. One such LLM model is "text summarize"; it is really fast and accurate for the use case of text summarization, and even GPT is better in terms of speed against Gemini. Since Gemini is free to use, I used Gemini for this.
+- I only used Gemini because it was free, but in many cases, even if the information was explicitly provided, it was unable to extract the "said" information.
 
